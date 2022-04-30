@@ -13,4 +13,10 @@ class MethodChannelUniLinks extends UniLinksPlatform {
   late final Stream<String?> linkStream = _eChannel
       .receiveBroadcastStream()
       .map<String?>((dynamic link) => link as String?);
+  
+  @override
+  void startNFCSession(String dialogMsg) => _mChannel.invokeMethod<void>('startNFCSession', dialogMsg);
+
+  @override
+  void stopNFCSession() => _mChannel.invokeMethod<void>('stopNFCSession');
 }

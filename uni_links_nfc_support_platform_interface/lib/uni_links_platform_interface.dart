@@ -45,4 +45,10 @@ abstract class UniLinksPlatform extends PlatformInterface {
   /// NOTE: base code found in [MethodChannelUniLinks.linkStream]
   Stream<String?> get linkStream => throw UnimplementedError(
       'getLinksStream has not been implemented on the current platform.');
+
+  void startNFCSession(String dialogMsg) => throw UnimplementedError(
+      'startNFCSession() has not been implemented on the current platform.');
+
+  void stopNFCSession() => throw UnimplementedError(
+      'stopNFCSession() has not been implemented on the current platform.');
 }

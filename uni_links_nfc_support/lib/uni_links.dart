@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io' show Platform;
 
 import 'package:uni_links_platform_interface/uni_links_platform_interface.dart';
 
@@ -56,3 +57,17 @@ Stream<String?> getLinksStream() => linkStream;
 /// not emit that initial uri - query either the `getInitialUri` instead.
 @Deprecated('Use [uriLinkStream]')
 Stream<Uri?> getUriLinksStream() => uriLinkStream;
+
+///iOS only, start listening for NFC URI payloads
+void startNFCSession(String dialogMsg) {
+  if(Platform.isIOS) {
+    UniLinksPlatform.instance.startNFCSession(dialogMsg);
+  }
+}
+
+///iOS only, stop listening for NFC URI payloads
+void stopNFCSession() {
+  if(Platform.isIOS) {
+    UniLinksPlatform.instance.stopNFCSession(dialogMsg);
+  }
+}
