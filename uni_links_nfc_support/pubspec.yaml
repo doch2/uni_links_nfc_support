@@ -1,7 +1,7 @@
 name: uni_links_nfc_support
 description: Flutter plugin for accepting incoming links - App/Deep Links (Android), Universal Links and Custom URL schemes (iOS).
-version: 0.5.1
-homepage: https://github.com/doch2/uni_links_nfc_support/tree/master/uni_links_nfc_support
+version: 0.6.0
+homepage: https://github.com/doch2/uni_links_nfc_support/tree/main/uni_links_nfc_support
 
 dependencies:
   flutter:
