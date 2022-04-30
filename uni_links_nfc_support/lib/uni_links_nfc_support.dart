@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io' show Platform;
 
-import 'package:uni_links_platform_interface/uni_links_platform_interface.dart';
+import 'package:uni_links_nfc_support_platform_interface/uni_links_nfc_support_platform_interface.dart';
 
 /// Returns a [Future], which completes to the initially stored link, which
 /// may be null.
@@ -68,6 +68,6 @@ void startNFCSession(String dialogMsg) {
 ///iOS only, stop listening for NFC URI payloads
 void stopNFCSession() {
   if(Platform.isIOS) {
-    UniLinksPlatform.instance.stopNFCSession(dialogMsg);
+    UniLinksPlatform.instance.stopNFCSession();
   }
 }

@@ -1,3 +1,7 @@
+## [0.6.0] - 2022-05-01
+
+* App/DeepLink support has been added to NFC tag on Android and iOS.
+
 ## [0.5.1] - 2021-04-28
 
 * Add the `getLinksStream()` and `getUriLinksStream()` methods back (flagged as deprecated) since they were removed.

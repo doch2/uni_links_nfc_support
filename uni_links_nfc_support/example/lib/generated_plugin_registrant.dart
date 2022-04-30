@@ -5,7 +5,7 @@
 // ignore_for_file: directives_ordering
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:uni_links_web/uni_links_web.dart';
+import 'package:uni_links_nfc_support_web/uni_links_nfc_support_web.dart';
 
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 

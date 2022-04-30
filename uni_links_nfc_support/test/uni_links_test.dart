@@ -6,7 +6,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:uni_links_nfc_support/uni_links.dart';
+import 'package:uni_links_nfc_support/uni_links_nfc_support.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

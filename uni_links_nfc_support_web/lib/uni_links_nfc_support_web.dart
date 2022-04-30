@@ -1,7 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:uni_links_platform_interface/uni_links_platform_interface.dart';
+import 'package:uni_links_nfc_support_platform_interface/uni_links_nfc_support_platform_interface.dart';
 
 class UniLinksPlugin extends UniLinksPlatform {
   static void registerWith(Registrar registrar) {

@@ -1,6 +1,6 @@
 name: uni_links_nfc_support_web
 description: A web implementation of the Uni Links platform interface.
-version: 0.1.0+1
+version: 0.1.2
 homepage: https://github.com/doch2/uni_links_nfc_support/tree/main/uni_links_nfc_support_web
 
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  uni_links_platform_interface: ^1.0.0
+  uni_links_nfc_support_platform_interface: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -23,4 +23,4 @@ flutter:
     platforms:
       web:
         pluginClass: UniLinksPlugin
-        fileName: 'uni_links_web.dart'
+        fileName: 'uni_links_nfc_support_web.dart'
