@@ -3,6 +3,7 @@ package name.avioli.unilinks;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.nfc.NfcAdapter;
 
 import androidx.annotation.NonNull;
 
@@ -36,7 +37,7 @@ public class UniLinksPlugin
         String action = intent.getAction();
         String dataString = intent.getDataString();
 
-        if (Intent.ACTION_VIEW.equals(action)) {
+        if (Intent.ACTION_VIEW.equals(action) || NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action)) {
             if (initialIntent) {
                 initialLink = dataString;
                 initialIntent = false;
