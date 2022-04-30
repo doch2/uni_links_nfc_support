@@ -1,4 +1,7 @@
-# Uni Links
+# Uni Links + NFC Support
+
+**In addition to the existing url_links plug-in, it is a plug-in created by referring to the NFC Support code created by [CathalT](https://github.com/CathalT/uni_links).  
+Added App/Deep Links support via NFC tag from existing url_links plug-in.**
 
 A Flutter plugin project to help with App/Deep Links (Android) and
 Universal Links and Custom URL schemes (iOS).
