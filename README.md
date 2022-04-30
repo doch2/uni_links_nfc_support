@@ -6,5 +6,5 @@ The main `uni_links_nfc_support` plugin source code and documantation can be fou
 
 
 ## What is the difference from the existing uni_links plug-in?
-In addition to the existing url_links plug-in, it is a plug-in created by referring to the NFC Support code created by [CathalT](https://github.com/CathalT/uni_links).  
+In addition to the [existing url_links plug-in](https://pub.dev/packages/uni_links), it is a plug-in created by referring to the NFC Support code created by [CathalT](https://github.com/CathalT/uni_links).  
 Added App/Deep Links support via NFC tag from existing url_links plug-in.
