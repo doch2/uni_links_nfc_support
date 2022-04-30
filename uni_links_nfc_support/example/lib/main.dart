@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:uni_links/uni_links.dart';
+import 'package:uni_links_nfc_support/uni_links.dart';
 
 bool _initialUriIsHandled = false;
 

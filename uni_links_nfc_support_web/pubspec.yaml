@@ -1,7 +1,7 @@
-name: uni_links_web
+name: uni_links_nfc_support_web
 description: A web implementation of the Uni Links platform interface.
 version: 0.1.0
-homepage: https://github.com/avioli/uni_links/tree/master/uni_links_web
+homepage: https://github.com/doch2/uni_links_nfc_support/tree/master/uni_links_nfc_support_web
 
 dependencies:
   flutter:
