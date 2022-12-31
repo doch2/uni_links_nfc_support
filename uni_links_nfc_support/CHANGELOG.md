@@ -1,3 +1,7 @@
+## [0.6.1] - 2022-12-31
+
+* Fix 'No podspec found for uni_links_nfc_support' error on iOS platform
+
 ## [0.6.0] - 2022-05-01
 
 * App/DeepLink support has been added to NFC tag on Android and iOS.
